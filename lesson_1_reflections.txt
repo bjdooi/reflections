@@ -1,0 +1,60 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+	Viewing a diff helped me see a bug by eliminating the need for me to meticulously go through code like I've always been doing. The diff commmand is extremely simple, yet powerful. It showed me the differences between 2 files and it has it's best application as a version comparator. 
+
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+	Easy access to an entire history of a file can make me a stronger programmer by not having me waste time trying to backtrack. Many headaches could be resolved quickly by understanding what I've already gone over. I know many people who've spent tons of time ripping their hair out looking for errors in C++ code, and having such powerful tools will make my life easier and my programming skills more adept.
+
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+	The pros of having manual commits compared to automatically saved versions is that you obtain meaningful version differences that can help you when you reflect on older versions. Automatically saved changes can give you too many saved versions that may end up being more confusing than useful. One con of manually choosing when to commit is that if there is a crash and you forget to commit, then the work you've completed would be lost. Automatically saved versions are always there in the event of a crash, and you'll have a version that won't set you back as much.
+
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+	Git allows you to save multiple files at once because it is necessary for multiple files to interact with each other when you're doing large coding projects. Google Docs and others treat each file differently because there's no real reason for files like that to constantly interact with each other. If you did want more than one file to interact with each other on google docs, most people would just simply copy and paste one document to the other and treat it all as one file. This wouldn't change how a Google Doc would work. However, with coding projects, this would become too cumbersome, and would eliminate readability and possibly functionality from your code.
+
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+	The commands git log and git diff are very nice. Git log shows the log of commits or changes made to the files with some extra notes explaning what was changed. Git diff actually shows what was changed, and shows the revisions made between 2 commits.
+
+
+
+How might using version control make you more confident to make changes that could break something?
+
+	Version control can make me more confident with making changes because I could always go back and easily change whichever version I want to run. I could easily revert back to older versions if new versions are broken by using the checkout command. I could also save whatever my most recent commit key is just in case I want to bring everything back to normal. 
+
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+	I want to try to use Git for every coding project I have. It would be a great way to become familiar with Git and it will also allow me tons of flexibility as a coder. I'd honestly want to use it to create the simple python keylogger and also for my data science projects. I just hope I can go through these things quickly, but my pace as a programmer is slower than I'd want it to be.
+
+
+
+Reflect on initializing a repository:
+
+	O jeez, this all makes so much sense after I've been dicking around with git for months. I can't believe I found it so difficult, but the best click came in when Charles was explaining git and version control to me. Charles is a godsend, omg. It all makes so much more sense now. I feel cool, and I'm having fun doing this because I'm not endlessly frustrated!
+
+	git init turns my current directory into a git repo, one that includes all the git version control I now know and love. 
+
+	git status shows me what files have been added to the repo. Initialized git repos don't have a git log because it starts off with 0 commits. You make the commits yourself!
+
+
+
+
+
+
+
+
+
+
+
