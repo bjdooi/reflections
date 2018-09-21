@@ -8,21 +8,16 @@ What happens when you initialize a repository? Why do you need to do it?
 
 	The woman says I should do one commit per logical change, and she's not wrong. 
 
-How is the staging area different from the working directory and the repository?
-What value do you think it offers?
+How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 	The staging area is different from the working directory in that this is what I am setting up to be tracked and followed by git. The working directory could have many untracked files, and git won't care about those unless I add them to the staging area. The repository is where the things from the staging area go to. The repository is separate from the working directory. In a sense, you're kind of splitting up your working directory and putting into the repository only the files you want to be tracked by git. This offers a ton of value and flexibility, so that you can keep personal things for testing separate from whatever shared repository you have with others on a team. Omg, this is a very simple and nice concept. Normally, when I shared a VM instance with Steve, I could see his random files laid about that read "text.py" or something like that. I;ve also done the same. This is totally fine when there's two of us. But if we were working on a huge project with tons of other people, and these random little test files showed up all over, it would make the directory we're all working in look cluttered, and it could possibly confuse the others as they'd want to know the purpose of these random files.
 
-How can you use the staging area to make sure you have one commit per logical
-change?
+How can you use the staging area to make sure you have one commit per logical change?
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 How do the diagrams help you visualize the branch structure?
 
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
-What are the pros and cons of Git's automatic merging vs. always doing merges
-manually?
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
