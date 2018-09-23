@@ -26,6 +26,8 @@ How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
+	The result (if no conflicts exist) is that all the logical changes that were made were then reincorporated. So I got the functionality of all the things I did on master available to me with the coin function. The diagram is represented in the branch diagram way because it's a good and accurate representation of what happened.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges manually?
 
 
