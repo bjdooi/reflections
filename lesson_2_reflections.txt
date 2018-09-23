@@ -22,6 +22,8 @@ What are some situations when branches would be helpful in keeping your history 
 
 How do the diagrams help you visualize the branch structure?
 
+	Diagrams help you visualize the branch structure because it is a literal representation of the branch structure. But it's very good to have so that you can see what kind of tree you are running in your project. You can tell if people are doing weird things on git and you could have your company develop different types of git philosophies while working on a project. Some companies may be fine with having huge huge sprawling branches, while others would like for everything to merge back into master while keeping the whole line looking as clear and linear as possible. This I believe is best for large sprawling projects, where the master branch is simply what is given to the end user.
+
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 What are the pros and cons of Git's automatic merging vs. always doing merges manually?
