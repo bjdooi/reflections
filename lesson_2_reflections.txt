@@ -14,10 +14,31 @@ How is the staging area different from the working directory and the repository?
 
 How can you use the staging area to make sure you have one commit per logical change?
 
+	I can use the staging area to make sure I have one logical change by checking out git diff --staged. This will show me the difference between what I have ready to be committed and what I already have committed. From that diff, I can check out if my logical change is logical. I can use git diff without anything after to see the difference between my working directory and the staging area. This is helpful because It can show me if I made any weird changes. Also, onel logical change per commit makes it very easy to check over your own work before you commit it to make sure you haven't made any mistakes that were unintentional.
+
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	Branches are super useful when you're trying to do a big change and play around with everything without jeopardizing everything that's already been created. It keeps your history organized because it shows all the logical changes of what you've been up to. Branches help because they just show you what you or other were trying at different points in time.
 
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
