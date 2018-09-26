@@ -6,14 +6,13 @@ Why might you want to always pull changes manually rather than having Git automa
 
 	You would want to pull changes manually rather than have git automatically stay up-to-date because this opens the possibility of your code getting messed up by any new big changes. If you're working on a new feature for a project remotely, but then the whole code base of the project changes, then you would need to convert your code to work. However, this would not be possible if the code just changed right under your nose, and you would be endlessly sad. Also, if someone introduces a bug into the main version, you would want your specific local repo to be detached from this. Keeping these things separate allows for the exploration and testing that git enables and supports.
 
-
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
 	A branch is a split from any parent commit (I'm pretty sure you can make a branch from anywhere). Branches can be used to totally change anything you want in a repository without having fear of messing up old versions. A clone is just a straight up copy of a github repository. A clone can be made of a remote repository or a local one. A fork is a clone that's specific to the github website. Forks are a shortcut that allows you to clone a remote repository and have it present there on your github profile without having to first clone the remote repository, and push the changes up to github locally. Branches are contained within repositories, so I could use them in whatever sense I use a repository. I would use a fork if I'm trying to get some code from someone else on my github, and I would use clone to then pull down the new repo from my github page.
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
-
+	The benefit of having a copy of the last known state of the remote repository stored locally is that you can see what point the code on the remote is up to, and you could see how your local branches would differ. Using a fetch just updates the origin/master branch that you have locally, but that stays different from what you have beem doing. Another benefit is that if you wanted to see an updated version of the origin/master branch, no rug would be swept from under your feet. Well, that's arbitrary, but it lets you know what changes are being pushed to the origin's master branch.
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
