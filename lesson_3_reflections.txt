@@ -20,7 +20,7 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 
 When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
 
-
+	The times when I would want to make changes in a separate branch rather than directly into master is when I'm trying to do something wild and would want to use github to include my branch for pull requests. An aptly named branch can tell someone alot about what you've done by just glancing at it. If I were making changes directly to my master, things could get confusing because there wouldn't be specific names for things, just commits, but there probably isn't much wrong with that. Making branches are better in my opinion because it makes you constantly look at your change to update it for the newest master version of a program, rather than you putting in code that could be buggy since it's based on older code. Branches just keep everything a bit more separate and forces you to make your code really work before it gets implemented.
 
 
 
